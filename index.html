@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bienvenido a Denti Flow</title>
+	<link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+		rel="stylesheet">
+</head>
+
+<body id="top">
+	<header class="header">
+		<div class="header-top">
+			<div class="container">
+				<ul class="contact-list">
+					<li class="contact-item">
+						<ion-icon name="mail-outline"></ion-icon>
+						<a href="mailto:info@gmail.com" class="contact-link">info@gmail.com</a>
+					</li>
+					<li class="contact-item">
+						<ion-icon name="call-outline"></ion-icon>
+						<a href="tel:+59161156909" class="contact-link">+591 61156909</a>
+					</li>
+				</ul>
+				<ul class="social-list">
+					<li>
+						<a href="#" class="social-link">
+							<ion-icon name="logo-facebook"></ion-icon>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-link">
+							<ion-icon name="logo-instagram"></ion-icon>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-link">
+							<ion-icon name="logo-twitter"></ion-icon>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-link">
+							<ion-icon name="logo-youtube"></ion-icon>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="header-bottom" data-header>
+			<div class="container">
+				<a href="#" class="logo">Denti Flow</a>
+				<nav class="navbar container" data-navbar>
+					<ul class="navbar-list">
+						<li>
+							<a href="#principal" class="navbar-link" data-nav-link>Principal</a>
+						</li>
+						<li>
+							<a href="#servicios" class="navbar-link" data-nav-link>Servicios</a>
+						</li>
+						<li>
+							<a href="#acercade" class="navbar-link" data-nav-link>Acerca de</a>
+						</li>
+						<li>
+							<a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+						</li>
+						<li>
+							<a href="login.html" class="navbar-link" data-nav-link>Ingresar</a>
+						</li>
+					</ul>
+				</nav>
+				<a href="reserva.html" class="btn">Reservar Cita</a>
+				<button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+					<ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+					<ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<article>
+			<section class="section hero" id="home" style="background-image: url('./assets/images/hero-bg.png')"
+				aria-label="hero">
+				<div class="container">
+					<div class="hero-content">
+						<p class="section-subtitle">Bienvenido a Denti Flow</p>
+						<h1 class="h1 hero-title">Somos el mejor servicio Dental</h1>
+						<p class="hero-text">
+							Comprometidos con tu salud bucal y bienestar. Nuestro equipo de especialistas te ofrece atención de calidad, tecnología de vanguardia y un ambiente cómodo para que tu sonrisa siempre luzca radiante.
+						</p>
+						<p class="hero-text">
+							Agenda tu cita hoy y descubre una experiencia dental diferente.
+							<a href="reserva.html" class="btn">Reservar Cita</a>
+						</p>
+					</div>
+					<figure class="hero-banner">
+						<img src="./assets/images/hero-banner.png" width="587" height="839" alt="hero banner"
+							class="w-100">
+					</figure>
+				</div>
+			</section>
+
+			<section class="section service" id="servicios" aria-label="service">
+				<div class="container">
+					<p class="section-subtitle text-center">Nuestros Servicios</p>
+					<h2 class="h2 section-title text-center">Lo que proporcionamos</h2>
+					<ul class="service-list">
+						<li>
+							<div class="service-card">
+								<div class="card-icon">
+									<img src="./assets/images/service-icon-1.png" width="100" height="100"
+										loading="lazy" alt="" class="w-100">
+								</div>
+								<div>
+									<h3 class="h3 card-title">Endodoncia</h3>
+									<p class="card-text">
+										Tratamiento especializado para salvar dientes dañados o infectados, eliminando el tejido afectado y sellando el conducto para aliviar el dolor.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="service-card">
+								<div class="card-icon">
+									<img src="./assets/images/service-icon-2.png" width="100" height="100"
+										loading="lazy" alt="" class="w-100">
+								</div>
+								<div>
+									<h3 class="h3 card-title">Alineación Dental</h3>
+									<p class="card-text">
+										Corrige la posición de tus dientes con tratamientos de ortodoncia avanzados para una sonrisa más armoniosa y funcional.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="service-card">
+								<div class="card-icon">
+									<img src="./assets/images/service-icon-3.png" width="100" height="100"
+										loading="lazy" alt="" class="w-100">
+								</div>
+								<div>
+									<h3 class="h3 card-title">Estética Dental</h3>
+									<p class="card-text">
+										Mejora la apariencia de tu sonrisa con blanqueamientos, carillas y otros tratamientos diseñados para embellecer tus dientes.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="service-banner">
+							<figure>
+								<img src="./assets/images/service-banner.png" width="409" height="467" loading="lazy"
+									alt="" class="w-100">
+							</figure>
+						</li>
+
+						<li>
+							<div class="service-card">
+								<div class="card-icon">
+									<img src="./assets/images/service-icon-4.png" width="100" height="100"
+										loading="lazy" alt="" class="w-100">
+								</div>
+
+								<div>
+									<h3 class="h3 card-title">Higiene Oral</h3>
+									<p class="card-text">
+										Limpiezas dentales profesionales y consejos de cuidado para prevenir enfermedades bucales y mantener una sonrisa saludable.
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="service-card">
+								<div class="card-icon">
+									<img src="./assets/images/service-icon-5.png" width="100" height="100"
+										loading="lazy" alt="" class="w-100">
+								</div>
+								<div>
+									<h3 class="h3 card-title">Asesoría en Vivo</h3>
+									<p class="card-text">
+										Consulta en línea con nuestros expertos para resolver dudas sobre tu salud bucal y recibir recomendaciones personalizadas.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="service-card">
+								<div class="card-icon">
+									<img src="./assets/images/service-icon-6.png" width="100" height="100"
+										loading="lazy" alt="" class="w-100">
+								</div>
+								<div>
+									<h3 class="h3 card-title">Revisión de Caries</h3>
+									<p class="card-text">
+										Evaluación detallada para detectar y tratar caries a tiempo, evitando daños mayores en tus dientes.
+									</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="section about" id="acercade" aria-label="about">
+				<div class="container">
+					<figure class="about-banner">
+						<img src="./assets/images/about-banner.png" width="470" height="538" loading="lazy"
+							alt="" class="w-100">
+					</figure>
+					<div class="about-content">
+						<p class="section-subtitle">Acerca de</p>
+						<h2 class="h2 section-title">Cuidamos tu salud dental</h2>
+						<p class="section-text section-text-1">
+							En Denti Flow, nos preocupamos por tu bienestar bucal y general. Sabemos que una sonrisa saludable no solo mejora tu apariencia, sino que también es clave para tu calidad de vida. Por eso, ofrecemos atención especializada con tecnología de vanguardia y un equipo de expertos comprometidos con tu cuidado.
+						</p>
+						<p class="section-text">
+							Desde limpiezas preventivas hasta tratamientos avanzados, nuestro objetivo es brindarte soluciones efectivas y personalizadas para mantener tus dientes y encías en óptimas condiciones. Confía en nosotros para cuidar tu sonrisa y disfrutar de una salud dental impecable.
+						</p>
+						<a href="#" class="btn">Leer más</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="section doctor" aria-label="doctor">
+				<div class="container">
+					<p class="section-subtitle text-center">Nuestros Doctores</p>
+					<h2 class="h2 section-title text-center">Los mejores expertos</h2>
+					<ul class="has-scrollbar">
+						<li class="scrollbar-item">
+							<div class="doctor-card">
+								<div class="card-banner img-holder" style="--width: 460; --height: 500;">
+									<img src="./assets/images/doctor-1.png" width="460" height="500" loading="lazy"
+										alt="" class="img-cover">
+								</div>
+								<h3 class="h3">
+									<a href="#" class="card-title">Howard Holmes</a>
+								</h3>
+								<p class="card-subtitle">Dentista</p>
+								<ul class="card-social-list">
+									<li>
+										<a href="#" class="card-social-link">
+											<ion-icon name="logo-facebook"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="card-social-link">
+											<ion-icon name="logo-twitter"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="card-social-link">
+											<ion-icon name="logo-instagram"></ion-icon>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li class="scrollbar-item">
+							<div class="doctor-card">
+								<div class="card-banner img-holder" style="--width: 460; --height: 500;">
+									<img src="./assets/images/doctor-2.png" width="460" height="500" loading="lazy"
+										alt="" class="img-cover">
+								</div>
+								<h3 class="h3">
+									<a href="#" class="card-title">Elena Thompson</a>
+								</h3>
+								<p class="card-subtitle">Dentista</p>
+								<ul class="card-social-list">
+									<li>
+										<a href="#" class="card-social-link">
+											<ion-icon name="logo-facebook"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="card-social-link">
+											<ion-icon name="logo-twitter"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="card-social-link">
+											<ion-icon name="logo-instagram"></ion-icon>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li class="scrollbar-item">
+							<div class="doctor-card">
+								<div class="card-banner img-holder" style="--width: 460; --height: 500;">
+									<img src="./assets/images/doctor-3.png" width="460" height="500" loading="lazy"
+										alt="" class="img-cover">
+								</div>
+								<h3 class="h3">
+									<a href="#" class="card-title">Vincent Cooper</a>
+								</h3>
+								<p class="card-subtitle">Dentista</p>
+								<ul class="card-social-list">
+									<li>
+										<a href="#" class="card-social-link">
+											<ion-icon name="logo-facebook"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="card-social-link">
+											<ion-icon name="logo-twitter"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="card-social-link">
+											<ion-icon name="logo-instagram"></ion-icon>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li class="scrollbar-item">
+							<div class="doctor-card">
+								<div class="card-banner img-holder" style="--width: 460; --height: 500;">
+									<img src="./assets/images/doctor-4.png" width="460" height="500" loading="lazy"
+										alt="" class="img-cover">
+								</div>
+								<h3 class="h3">
+									<a href="#" class="card-title">Damariz Bryant</a>
+								</h3>
+								<p class="card-subtitle">Dentista</p>
+								<ul class="card-social-list">
+									<li>
+										<a href="#" class="card-social-link">
+											<ion-icon name="logo-facebook"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="card-social-link">
+											<ion-icon name="logo-twitter"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="card-social-link">
+											<ion-icon name="logo-instagram"></ion-icon>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="section cta" aria-label="cta">
+				<div class="container">
+					<figure class="cta-banner">
+						<img src="./assets/images/cta-banner.png" width="1056" height="1076" loading="lazy"
+							alt="" class="w-100">
+					</figure>
+					<div class="cta-content">
+						<h2 class="h2 section-title">Brindamos una atención cálida y accesible.</h2>
+						<a href="#" class="btn">Reservar cita</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="section blog" id="blog" aria-label="blog">
+				<div class="container">
+					<p class="section-subtitle text-center">Nuestro Blog</p>
+					<h2 class="h2 section-title text-center">Últimos Blogs y Nuevos</h2>
+					<ul class="blog-list">
+						<li>
+							<div class="blog-card">
+								<figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+									<img src="./assets/images/blog-1.jpg" width="1180" height="800" loading="lazy"
+										alt="" class="img-cover">
+									<div class="card-badge">
+										<ion-icon name="calendar-outline"></ion-icon>
+										<time class="time" datetime="2025-03-10">10 de Marzo, 2025</time>
+									</div>
+								</figure>
+								<div class="card-content">
+									<h3 class="h3">
+										<a href="#" class="card-title">La Importancia de la Higiene Oral en tu Salud General</a>
+									</h3>
+									<p class="card-text">
+										Mantener una buena higiene bucal no solo cuida tu sonrisa, sino que también protege tu salud en general. Problemas como la gingivitis o las caries pueden derivar en enfermedades más graves si no se tratan a tiempo. Cepillarse al menos dos veces al día, usar hilo dental y acudir a limpiezas profesionales ayuda a prevenir complicaciones. En Denti Flow, te ayudamos a mantener una boca sana y radiante.
+									</p>
+									<a href="blog.html" class="card-link">Leer más</a>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="blog-card">
+								<figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+									<img src="./assets/images/blog-2.jpg" width="1180" height="800" loading="lazy"
+										alt="" class="img-cover">
+									<div class="card-badge">
+										<ion-icon name="calendar-outline"></ion-icon>
+										<time class="time" datetime="2025-03-10">10 de Marzo, 2025</time>
+									</div>
+								</figure>
+
+								<div class="card-content">
+									<h3 class="h3">
+										<a href="#" class="card-title">Ortodoncia: No Solo es Estética, También es Salud</a>
+									</h3>
+									<p class="card-text">
+										Muchas personas piensan que la ortodoncia solo mejora la apariencia de los dientes, pero también es clave para la salud bucal. Una alineación incorrecta puede causar problemas en la mordida, desgaste dental y hasta dolores de cabeza. Con tratamientos como brackets o alineadores invisibles, en Denti Flow te ayudamos a lograr una sonrisa alineada y funcional. ¡Consulta con nuestros especialistas!
+									</p>
+									<a href="blog.html" class="card-link">Leer más</a>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="blog-card">
+								<figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+									<img src="./assets/images/blog-3.jpg" width="1180" height="800" loading="lazy"
+										alt="" class="img-cover">
+									<div class="card-badge">
+										<ion-icon name="calendar-outline"></ion-icon>
+										<time class="time" datetime="2025-03-11">11 de Marzo, 2025</time>
+									</div>
+								</figure>
+								<div class="card-content">
+									<h3 class="h3">
+										<a href="#" class="card-title">¿Cuándo Debes Visitar al Dentista?</a>
+									</h3>
+									<p class="card-text">
+										Muchos esperan a sentir dolor para visitar al dentista, pero la prevención es clave. Lo ideal es acudir al menos dos veces al año para una revisión y limpieza profesional. Si presentas sangrado de encías, sensibilidad extrema o molestias al masticar, es momento de agendar una cita. En Denti Flow, estamos listos para cuidar de tu sonrisa con atención personalizada y tecnología avanzada.
+									</p>
+									<a href="blog.html" class="card-link">Leer más</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+		</article>
+	</main>
+
+	<footer class="footer">
+		<div class="footer-top section">
+			<div class="container">
+				<div class="footer-brand">
+					<a href="#" class="logo">Denti Flow</a>
+					<p class="footer-text">
+						En Denti Flow, nos adaptamos a tu ritmo de vida para ofrecerte un servicio accesible y conveniente. Sabemos lo importante que es cuidar tu salud bucal sin descuidar tus compromisos diarios, por eso contamos con un horario flexible para atenderte cuando más lo necesites.
+					</p>
+					<div class="schedule">
+						<div class="schedule-icon">
+							<ion-icon name="time-outline"></ion-icon>
+						</div>
+						<span class="span">
+							Lunes - Sábado:<br>
+							09:00 - 22:00
+						</span>
+					</div>
+				</div>
+				<ul class="footer-list">
+					<li>
+						<p class="footer-list-title">Enlaces</p>
+					</li>
+					<li>
+						<a href="#principal" class="footer-link">
+							<ion-icon name="add-outline"></ion-icon>
+							<span class="span">Principal</span>
+						</a>
+					</li>
+					<li>
+						<a href="#acercade" class="footer-link">
+							<ion-icon name="add-outline"></ion-icon>
+							<span class="span">Acerca de </span>
+						</a>
+					</li>
+					<li>
+						<a href="#servicios" class="footer-link">
+							<ion-icon name="add-outline"></ion-icon>
+							<span class="span">Servicios</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="footer-link">
+							<ion-icon name="add-outline"></ion-icon>
+							<span class="span">Nuestro Equipo</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#blog" class="footer-link">
+							<ion-icon name="add-outline"></ion-icon>
+							<span class="span">Últimos Blogs</span>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="footer-list">
+					<li>
+						<p class="footer-list-title">Servicios</p>
+					</li>
+					<li>
+						<a href="#" class="footer-link">
+							<ion-icon name="add-outline"></ion-icon>
+							<span class="span">Endodoncia</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="footer-link">
+							<ion-icon name="add-outline"></ion-icon>
+							<span class="span">Alineación Dental</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="footer-link">
+							<ion-icon name="add-outline"></ion-icon>
+							<span class="span">Estética Dental</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="footer-link">
+							<ion-icon name="add-outline"></ion-icon>
+							<span class="span">Higiene Oral</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="footer-link">
+							<ion-icon name="add-outline"></ion-icon>
+							<span class="span">Asesoría en Vivo</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="footer-link">
+							<ion-icon name="add-outline"></ion-icon>
+							<span class="span">Revisión de Caries</span>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="footer-list">
+					<li>
+						<p class="footer-list-title">Contacto</p>
+					</li>
+					<li class="footer-item">
+						<div class="item-icon">
+							<ion-icon name="location-outline"></ion-icon>
+						</div>
+
+						<address class="item-text">
+							El Alto - La Paz, Calle Canelas Dimitri #1514
+						</address>
+					</li>
+					<li class="footer-item">
+						<div class="item-icon">
+							<ion-icon name="call-outline"></ion-icon>
+						</div>
+						<a href="tel:+59161156909" class="footer-link">+591-61156909</a>
+					</li>
+					<li class="footer-item">
+						<div class="item-icon">
+							<ion-icon name="mail-outline"></ion-icon>
+						</div>
+						<a href="mailto:help@gmail.com" class="footer-link">help@gmail.com</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<p class="copyright">
+					&copy; 2025 Todos los derechos son reservados.
+				</p>
+				<ul class="social-list">
+					<li>
+						<a href="#" class="social-link">
+							<ion-icon name="logo-facebook"></ion-icon>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-link">
+							<ion-icon name="logo-instagram"></ion-icon>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-link">
+							<ion-icon name="logo-twitter"></ion-icon>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+		<ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+	</a>
+
+	<script src="./assets/js/script.js" defer></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

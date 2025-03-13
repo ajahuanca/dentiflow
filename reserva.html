@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva Cita - Denti Flow</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="top">
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <a href="mailto:info@gmail.com" class="contact-link">info@gmail.com</a>
+                    </li>
+                    <li class="contact-item">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <a href="tel:+59161156909" class="contact-link">+591 61156909</a>
+                    </li>
+                </ul>
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-bottom" data-header>
+            <div class="container">
+                <a href="#" class="logo">Denti Flow</a>
+                <nav class="navbar container" data-navbar>
+                    <ul class="navbar-list">
+                        <li>
+                            <a href="index.html" class="navbar-link" data-nav-link>Principal</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="navbar-link" data-nav-link>Servicios</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="navbar-link" data-nav-link>Acerca de</a>
+                        </li>
+                        <li>
+                            <a href="login.html" class="navbar-link" data-nav-link>Ingresar</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="btn">Reservar Cita</a>
+                <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+                    <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+                    <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="section blog" id="blog" aria-label="blog">
+                <div class="container my-5">
+                    <h2 class="text-center mb-4">Formulario de Reserva de Cita</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre Completo</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ejemplo: Juan Pérez"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email"
+                                placeholder="Ejemplo: juan.perez@email.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Teléfono de Contacto</label>
+                            <input type="tel" class="form-control" id="telefono" placeholder="Ejemplo: +34 612 345 678"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">¿Es tu primera vez en nuestra clínica?</label><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="primera_vez" id="primera-vez-si"
+                                    value="si" required>
+                                <label class="form-check-label" for="primera-vez-si">Sí</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="primera_vez" id="primera-vez-no"
+                                    value="no" required>
+                                <label class="form-check-label" for="primera-vez-no">No</label>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="consulta" class="form-label">Tipo de Consulta</label>
+                            <select class="form-select" id="consulta" required>
+                                <option value="general">Consulta General</option>
+                                <option value="limpieza">Limpieza Dental</option>
+                                <option value="caries">Revisión de Caries</option>
+                                <option value="encias">Tratamiento de Encías</option>
+                                <option value="ortodoncia">Ortodoncia</option>
+                                <option value="emergencia">Emergencia Dental</option>
+                                <option value="otro">Otro (especificar)</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="descripcion" class="form-label">Descripción del Problema (opcional)</label>
+                            <textarea class="form-control" id="descripcion" rows="3"
+                                placeholder="Escribe aquí tu descripción del problema"></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="fecha" class="form-label">Fecha de la Cita</label>
+                            <input type="date" class="form-control" id="fecha" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="hora" class="form-label">Hora de la Cita</label>
+                            <select class="form-select" id="hora" required>
+                                <option value="09:00">09:00 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="11:00">11:00 AM</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="14:00">02:00 PM</option>
+                                <option value="15:00">03:00 PM</option>
+                                <option value="16:00">04:00 PM</option>
+                                <option value="17:00">05:00 PM</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="alergias" class="form-label">¿Tienes alguna alergia o condición médica
+                                relevante?</label>
+                            <input type="text" class="form-control" id="alergias"
+                                placeholder="Ejemplo: Alergia al látex, hipertensión">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">¿Prefieres recibir un recordatorio de tu cita?</label><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="recordatorio" id="recordatorioEmail"
+                                    value="email">
+                                <label class="form-check-label" for="recordatorioEmail">Por correo electrónico</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="recordatorio" id="recordatorioSMS"
+                                    value="sms">
+                                <label class="form-check-label" for="recordatorioSMS">Por mensaje de texto</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="recordatorio" id="recordatorioNo"
+                                    value="no">
+                                <label class="form-check-label" for="recordatorioNo">No</label>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                        </div>
+                        <input type="checkbox" class="form-check-input" id="terminos" required>
+                        <label for="terminos">Acepto los Términos y Condiciones.</label>
+
+                        <button type="submit" class="btn">Reservar Cita</button>
+                    </form>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top section">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Denti Flow</a>
+                    <p class="footer-text">
+                        En Denti Flow, nos adaptamos a tu ritmo de vida para ofrecerte un servicio accesible y
+                        conveniente. Sabemos lo importante que es cuidar tu salud bucal sin descuidar tus compromisos
+                        diarios, por eso contamos con un horario flexible para atenderte cuando más lo necesites.
+                    </p>
+                    <div class="schedule">
+                        <div class="schedule-icon">
+                            <ion-icon name="time-outline"></ion-icon>
+                        </div>
+                        <span class="span">
+                            Lunes - Sábado:<br>
+                            09:00 - 22:00
+                        </span>
+                    </div>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Enlaces</p>
+                    </li>
+                    <li>
+                        <a href="#principal" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Principal</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#acercade" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Acerca de </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#servicios" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Servicios</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Nuestro Equipo</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#blog" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Últimos Blogs</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Servicios</p>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Endodoncia</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Alineación Dental</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Estética Dental</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Higiene Oral</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Asesoría en Vivo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Revisión de Caries</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Contacto</p>
+                    </li>
+                    <li class="footer-item">
+                        <div class="item-icon">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <address class="item-text">
+                            El Alto - La Paz, Calle Canelas Dimitri #1514
+                        </address>
+                    </li>
+                    <li class="footer-item">
+                        <div class="item-icon">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+                        <a href="tel:+59161156909" class="footer-link">+591-61156909</a>
+                    </li>
+                    <li class="footer-item">
+                        <div class="item-icon">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <a href="mailto:help@gmail.com" class="footer-link">help@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright">
+                    &copy; 2025 Todos los derechos son reservados.
+                </p>
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <script src="./assets/js/script.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
