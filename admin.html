@@ -60,285 +60,303 @@
             </div>
         </div>
     </nav>
-
-    <div class="container">
-        <div class="w-100" id="mainContent">
-            <div class="container-fluid">
-                <div class="d-flex justify-content-between align-items-center mb-4 mt-4">
-                    <h1 class="h3">Dashboard</h1>
-                    <div>
-                        <button class="btn btn-sm btn-outline-secondary me-2">
-                            <i class="fas fa-download me-1"></i> Exportar
-                        </button>
-                        <button class="btn btn-sm btn-primary">
-                            <i class="fas fa-plus me-1"></i> Nueva cita
-                        </button>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <div class="dashboard-card">
-                            <div class="d-flex justify-content-between align-items-start">
-                                <div>
-                                    <div class="dashboard-card-icon bg-soft-primary">
-                                        <i class="fas fa-calendar-check"></i>
-                                    </div>
-                                    <h5 class="mt-2 mb-0">Citas hoy</h5>
-                                    <h2 class="my-2">15</h2>
-                                    <p class="text-muted mb-0"><span class="text-success"><i
-                                                class="fas fa-arrow-up me-1"></i>12%</span> vs semana pasada</p>
-                                </div>
+    <main>
+        <section>
+            <div class="container">
+                <div class="w-100" id="mainContent">
+                    <div class="container-fluid">
+                        <div class="d-flex justify-content-between align-items-center mb-4 mt-4">
+                            <h1 class="h3">Dashboard</h1>
+                            <div>
+                                <button class="btn btn-sm btn-outline-secondary me-2">
+                                    <i class="fas fa-download me-1"></i> Exportar
+                                </button>
+                                <button class="btn btn-sm btn-primary">
+                                    <i class="fas fa-plus me-1"></i> Nueva cita
+                                </button>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <div class="dashboard-card">
-                            <div class="d-flex justify-content-between align-items-start">
-                                <div>
-                                    <div class="dashboard-card-icon bg-soft-success">
-                                        <i class="fas fa-user-plus"></i>
+                        <div class="row">
+                            <div class="col-md-6 col-xl-3 mb-4">
+                                <div class="dashboard-card">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <div class="dashboard-card-icon bg-soft-primary">
+                                                <i class="fas fa-calendar-check"></i>
+                                            </div>
+                                            <h5 class="mt-2 mb-0">Citas hoy</h5>
+                                            <h2 class="my-2">15</h2>
+                                            <p class="text-muted mb-0"><span class="text-success"><i
+                                                        class="fas fa-arrow-up me-1"></i>12%</span> vs semana pasada</p>
+                                        </div>
                                     </div>
-                                    <h5 class="mt-2 mb-0">Nuevos pacientes</h5>
-                                    <h2 class="my-2">35</h2>
-                                    <p class="text-muted mb-0"><span class="text-success"><i
-                                                class="fas fa-arrow-up me-1"></i>18%</span> vs mes pasado</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <div class="dashboard-card">
-                            <div class="d-flex justify-content-between align-items-start">
-                                <div>
-                                    <div class="dashboard-card-icon bg-soft-warning">
-                                        <i class="fas fa-chart-line"></i>
-                                    </div>
-                                    <h5 class="mt-2 mb-0">Ingresos</h5>
-                                    <h2 class="my-2">$8,542</h2>
-                                    <p class="text-muted mb-0"><span class="text-danger"><i
-                                                class="fas fa-arrow-down me-1"></i>3%</span> vs mes pasado</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <div class="dashboard-card">
-                            <div class="d-flex justify-content-between align-items-start">
-                                <div>
-                                    <div class="dashboard-card-icon bg-soft-danger">
-                                        <i class="fas fa-procedures"></i>
-                                    </div>
-                                    <h5 class="mt-2 mb-0">Tratamientos</h5>
-                                    <h2 class="my-2">124</h2>
-                                    <p class="text-muted mb-0"><span class="text-success"><i
-                                                class="fas fa-arrow-up me-1"></i>5%</span> vs mes pasado</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-8 mb-4">
-                        <div class="dashboard-card">
-                            <div class="d-flex justify-content-between align-items-center mb-3">
-                                <h5 class="mb-0">Citas recientes</h5>
-                                <div class="dropdown">
-                                    <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button"
-                                        id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                        Todas
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu-end">
-                                        <li><a class="dropdown-item" href="#">Todas</a></li>
-                                        <li><a class="dropdown-item" href="#">Confirmadas</a></li>
-                                        <li><a class="dropdown-item" href="#">Pendientes</a></li>
-                                        <li><a class="dropdown-item" href="#">Canceladas</a></li>
-                                    </ul>
                                 </div>
                             </div>
 
-                            <div class="appointments-list">
-                                <div class="appointment-item upcoming">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-1 text-center">
-                                            <div class="avatar-circle">
-                                                <span>JD</span>
+                            <div class="col-md-6 col-xl-3 mb-4">
+                                <div class="dashboard-card">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <div class="dashboard-card-icon bg-soft-success">
+                                                <i class="fas fa-user-plus"></i>
                                             </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <h6 class="mb-0">Juan Díaz</h6>
-                                            <small class="text-muted">ID: #APT0025</small>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <p class="mb-0"><i class="far fa-calendar me-1"></i> Hoy, 15:30</p>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <span class="badge bg-primary">Próxima</span>
-                                        </div>
-                                        <div class="col-md-2 text-end">
-                                            <div class="dropdown">
-                                                <button class="btn btn-sm btn-outline-secondary" type="button"
-                                                    data-bs-toggle="dropdown">
-                                                    <i class="fas fa-ellipsis-v"></i>
-                                                </button>
-                                                <ul class="dropdown-menu dropdown-menu-end">
-                                                    <li><a class="dropdown-item" href="#"><i
-                                                                class="fas fa-eye me-1"></i> Ver detalles</a></li>
-                                                    <li><a class="dropdown-item" href="#"><i
-                                                                class="fas fa-edit me-1"></i> Editar</a></li>
-                                                    <li><a class="dropdown-item text-danger" href="#"><i
-                                                                class="fas fa-times me-1"></i> Cancelar</a></li>
-                                                </ul>
-                                            </div>
+                                            <h5 class="mt-2 mb-0">Nuevos pacientes</h5>
+                                            <h2 class="my-2">35</h2>
+                                            <p class="text-muted mb-0"><span class="text-success"><i
+                                                        class="fas fa-arrow-up me-1"></i>18%</span> vs mes pasado</p>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="appointment-item confirmed">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-1 text-center">
-                                            <div class="avatar-circle">
-                                                <span>MG</span>
+                            <div class="col-md-6 col-xl-3 mb-4">
+                                <div class="dashboard-card">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <div class="dashboard-card-icon bg-soft-warning">
+                                                <i class="fas fa-chart-line"></i>
                                             </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <h6 class="mb-0">María González</h6>
-                                            <small class="text-muted">ID: #APT0024</small>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <p class="mb-0"><i class="far fa-calendar me-1"></i> Hoy, 14:00</p>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <span class="badge bg-success">Confirmada</span>
-                                        </div>
-                                        <div class="col-md-2 text-end">
-                                            <div class="dropdown">
-                                                <button class="btn btn-sm btn-outline-secondary" type="button"
-                                                    data-bs-toggle="dropdown">
-                                                    <i class="fas fa-ellipsis-v"></i>
-                                                </button>
-                                                <ul class="dropdown-menu dropdown-menu-end">
-                                                    <li><a class="dropdown-item" href="#"><i
-                                                                class="fas fa-eye me-1"></i> Ver detalles</a></li>
-                                                    <li><a class="dropdown-item" href="#"><i
-                                                                class="fas fa-edit me-1"></i> Editar</a></li>
-                                                    <li><a class="dropdown-item text-danger" href="#"><i
-                                                                class="fas fa-times me-1"></i> Cancelar</a></li>
-                                                </ul>
-                                            </div>
+                                            <h5 class="mt-2 mb-0">Ingresos</h5>
+                                            <h2 class="my-2">$8,542</h2>
+                                            <p class="text-muted mb-0"><span class="text-danger"><i
+                                                        class="fas fa-arrow-down me-1"></i>3%</span> vs mes pasado</p>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="appointment-item pending">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-1 text-center">
-                                            <div class="avatar-circle">
-                                                <span>CR</span>
+                            <div class="col-md-6 col-xl-3 mb-4">
+                                <div class="dashboard-card">
+                                    <div class="d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <div class="dashboard-card-icon bg-soft-danger">
+                                                <i class="fas fa-procedures"></i>
                                             </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <h6 class="mb-0">Carlos Rodríguez</h6>
-                                            <small class="text-muted">ID: #APT0023</small>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <p class="mb-0"><i class="far fa-calendar me-1"></i> Mañana, 10:00</p>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <span class="badge bg-warning text-dark">Pendiente</span>
-                                        </div>
-                                        <div class="col-md-2 text-end">
-                                            <div class="dropdown">
-                                                <button class="btn btn-sm btn-outline-secondary" type="button"
-                                                    data-bs-toggle="dropdown">
-                                                    <i class="fas fa-ellipsis-v"></i>
-                                                </button>
-                                                <ul class="dropdown-menu dropdown-menu-end">
-                                                    <li><a class="dropdown-item" href="#"><i
-                                                                class="fas fa-eye me-1"></i> Ver detalles</a></li>
-                                                    <li><a class="dropdown-item" href="#"><i
-                                                                class="fas fa-edit me-1"></i> Editar</a></li>
-                                                    <li><a class="dropdown-item text-success" href="#"><i
-                                                                class="fas fa-check me-1"></i> Confirmar</a></li>
-                                                    <li><a class="dropdown-item text-danger" href="#"><i
-                                                                class="fas fa-times me-1"></i> Cancelar</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="appointment-item confirmed">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-1 text-center">
-                                            <div class="avatar-circle">
-                                                <span>LP</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <h6 class="mb-0">Laura Pérez</h6>
-                                            <small class="text-muted">ID: #APT0022</small>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <p class="mb-0"><i class="far fa-calendar me-1"></i> Mañana, 11:30</p>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <span class="badge bg-success">Confirmada</span>
-                                        </div>
-                                        <div class="col-md-2 text-end">
-                                            <div class="dropdown">
-                                                <button class="btn btn-sm btn-outline-secondary" type="button"
-                                                    data-bs-toggle="dropdown">
-                                                    <i class="fas fa-ellipsis-v"></i>
-                                                </button>
-                                                <ul class="dropdown-menu dropdown-menu-end">
-                                                    <li><a class="dropdown-item" href="#"><i
-                                                                class="fas fa-eye me-1"></i> Ver detalles</a></li>
-                                                    <li><a class="dropdown-item" href="#"><i
-                                                                class="fas fa-edit me-1"></i> Editar</a></li>
-                                                    <li><a class="dropdown-item text-danger" href="#"><i
-                                                                class="fas fa-times me-1"></i> Cancelar</a></li>
-                                                </ul>
-                                            </div>
+                                            <h5 class="mt-2 mb-0">Tratamientos</h5>
+                                            <h2 class="my-2">124</h2>
+                                            <p class="text-muted mb-0"><span class="text-success"><i
+                                                        class="fas fa-arrow-up me-1"></i>5%</span> vs mes pasado</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-4 mb-4">
-                        <div class="dashboard-card">
-                            <h5 class="mb-3">Distribución de tratamientos</h5>
-                            <canvas id="treatmentsChart" height="220"></canvas>
-                            <div class="d-flex justify-content-around mt-3">
-                                <div class="text-center">
-                                    <p class="mb-1 text-muted small">Limpiezas</p>
-                                    <h6>35%</h6>
+                        <div class="row">
+                            <div class="col-lg-8 mb-4">
+                                <div class="dashboard-card">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <h5 class="mb-0">Citas recientes</h5>
+                                        <div class="dropdown">
+                                            <button class="btn btn-sm btn-outline-secondary dropdown-toggle"
+                                                type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                                Todas
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                                <li><a class="dropdown-item" href="#">Todas</a></li>
+                                                <li><a class="dropdown-item" href="#">Confirmadas</a></li>
+                                                <li><a class="dropdown-item" href="#">Pendientes</a></li>
+                                                <li><a class="dropdown-item" href="#">Canceladas</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="appointments-list">
+                                        <div class="appointment-item upcoming">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-1 text-center">
+                                                    <div class="avatar-circle">
+                                                        <span>JD</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <h6 class="mb-0">Juan Díaz</h6>
+                                                    <small class="text-muted">ID: #APT0025</small>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <p class="mb-0"><i class="far fa-calendar me-1"></i> Hoy, 15:30</p>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <span class="badge bg-primary">Próxima</span>
+                                                </div>
+                                                <div class="col-md-2 text-end">
+                                                    <div class="dropdown">
+                                                        <button class="btn btn-sm btn-outline-secondary" type="button"
+                                                            data-bs-toggle="dropdown">
+                                                            <i class="fas fa-ellipsis-v"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu dropdown-menu-end">
+                                                            <li><a class="dropdown-item" href="#"><i
+                                                                        class="fas fa-eye me-1"></i> Ver detalles</a>
+                                                            </li>
+                                                            <li><a class="dropdown-item" href="#"><i
+                                                                        class="fas fa-edit me-1"></i> Editar</a></li>
+                                                            <li><a class="dropdown-item text-danger" href="#"><i
+                                                                        class="fas fa-times me-1"></i> Cancelar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="appointment-item confirmed">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-1 text-center">
+                                                    <div class="avatar-circle">
+                                                        <span>MG</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <h6 class="mb-0">María González</h6>
+                                                    <small class="text-muted">ID: #APT0024</small>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <p class="mb-0"><i class="far fa-calendar me-1"></i> Hoy, 14:00</p>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <span class="badge bg-success">Confirmada</span>
+                                                </div>
+                                                <div class="col-md-2 text-end">
+                                                    <div class="dropdown">
+                                                        <button class="btn btn-sm btn-outline-secondary" type="button"
+                                                            data-bs-toggle="dropdown">
+                                                            <i class="fas fa-ellipsis-v"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu dropdown-menu-end">
+                                                            <li><a class="dropdown-item" href="#"><i
+                                                                        class="fas fa-eye me-1"></i> Ver detalles</a>
+                                                            </li>
+                                                            <li><a class="dropdown-item" href="#"><i
+                                                                        class="fas fa-edit me-1"></i> Editar</a></li>
+                                                            <li><a class="dropdown-item text-danger" href="#"><i
+                                                                        class="fas fa-times me-1"></i> Cancelar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="appointment-item pending">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-1 text-center">
+                                                    <div class="avatar-circle">
+                                                        <span>CR</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <h6 class="mb-0">Carlos Rodríguez</h6>
+                                                    <small class="text-muted">ID: #APT0023</small>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <p class="mb-0"><i class="far fa-calendar me-1"></i> Mañana, 10:00
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <span class="badge bg-warning text-dark">Pendiente</span>
+                                                </div>
+                                                <div class="col-md-2 text-end">
+                                                    <div class="dropdown">
+                                                        <button class="btn btn-sm btn-outline-secondary" type="button"
+                                                            data-bs-toggle="dropdown">
+                                                            <i class="fas fa-ellipsis-v"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu dropdown-menu-end">
+                                                            <li><a class="dropdown-item" href="#"><i
+                                                                        class="fas fa-eye me-1"></i> Ver detalles</a>
+                                                            </li>
+                                                            <li><a class="dropdown-item" href="#"><i
+                                                                        class="fas fa-edit me-1"></i> Editar</a></li>
+                                                            <li><a class="dropdown-item text-success" href="#"><i
+                                                                        class="fas fa-check me-1"></i> Confirmar</a>
+                                                            </li>
+                                                            <li><a class="dropdown-item text-danger" href="#"><i
+                                                                        class="fas fa-times me-1"></i> Cancelar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="appointment-item confirmed">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-1 text-center">
+                                                    <div class="avatar-circle">
+                                                        <span>LP</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <h6 class="mb-0">Laura Pérez</h6>
+                                                    <small class="text-muted">ID: #APT0022</small>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <p class="mb-0"><i class="far fa-calendar me-1"></i> Mañana, 11:30
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <span class="badge bg-success">Confirmada</span>
+                                                </div>
+                                                <div class="col-md-2 text-end">
+                                                    <div class="dropdown">
+                                                        <button class="btn btn-sm btn-outline-secondary" type="button"
+                                                            data-bs-toggle="dropdown">
+                                                            <i class="fas fa-ellipsis-v"></i>
+                                                        </button>
+                                                        <ul class="dropdown-menu dropdown-menu-end">
+                                                            <li><a class="dropdown-item" href="#"><i
+                                                                        class="fas fa-eye me-1"></i> Ver detalles</a>
+                                                            </li>
+                                                            <li><a class="dropdown-item" href="#"><i
+                                                                        class="fas fa-edit me-1"></i> Editar</a></li>
+                                                            <li><a class="dropdown-item text-danger" href="#"><i
+                                                                        class="fas fa-times me-1"></i> Cancelar</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="text-center">
-                                    <p class="mb-1 text-muted small">Extracciones</p>
-                                    <h6>15%</h6>
-                                </div>
-                                <div class="text-center">
-                                    <p class="mb-1 text-muted small">Ortodoncia</p>
-                                    <h6>25%</h6>
-                                </div>
-                                <div class="text-center">
-                                    <p class="mb-1 text-muted small">Otros</p>
-                                    <h6>25%</h6>
+                            </div>
+
+                            <div class="col-lg-4 mb-4">
+                                <div class="dashboard-card">
+                                    <h5 class="mb-3">Distribución de tratamientos</h5>
+                                    <canvas id="treatmentsChart" height="220"></canvas>
+                                    <div class="d-flex justify-content-around mt-3">
+                                        <div class="text-center">
+                                            <p class="mb-1 text-muted small">Limpiezas</p>
+                                            <h6>35%</h6>
+                                        </div>
+                                        <div class="text-center">
+                                            <p class="mb-1 text-muted small">Extracciones</p>
+                                            <h6>15%</h6>
+                                        </div>
+                                        <div class="text-center">
+                                            <p class="mb-1 text-muted small">Ortodoncia</p>
+                                            <h6>25%</h6>
+                                        </div>
+                                        <div class="text-center">
+                                            <p class="mb-1 text-muted small">Otros</p>
+                                            <h6>25%</h6>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <div class="text-center">
+            <p class="copyright text-center">
+                &copy; 2025 Todos los derechos son reservados.
+            </p>
         </div>
-    </div>
-
+    </footer>
 </body>
-</html>                
+
+</html>
